@@ -281,7 +281,7 @@ def extract_srv(df, plot_option, srh_fit_options):
     df.loc[13,sample_name]=iVoc
     df.loc[14,sample_name]=tau_eff2
     df.loc[15,sample_name]=SRH_0
-    
+    df.loc[16,sample_name]=mse
     
     
     return df
@@ -305,6 +305,7 @@ def save_file(results_df, file_name):
     [[Joe6],[Joe2],[Joe1]]=results_df.loc[12,sample_name]
     iVoc=results_df.loc[13,sample_name]
     SRH_parms=results_df.loc[15,sample_name]
+    mse=results_df.loc[16,sample_name]
 
     f=open(file_name,'w')
 
@@ -325,6 +326,7 @@ def save_file(results_df, file_name):
     f.write("Joe6 \n");np.savetxt(f, Joe6, newline=", ");f.write("\n")
     f.write("iVoc \n");np.savetxt(f, iVoc, newline=", ");f.write("\n")
     f.write("SRH parameters (tn, tp, E_t \n");np.savetxt(f, SRH_parms, newline=", ");f.write("\n")
+    f.write("Mean Squared Error of best fit \n");np.savetxt(f, mse, newline=", ");f.write("\n")
 
 
     f.close()
