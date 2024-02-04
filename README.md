@@ -8,7 +8,9 @@ To make sure it is all clear, here are all the main equations that define how th
 - H. M€ackel and K. Varner, Prog. Photovolt. Res. Appl. 21, 850–866 (2013).
 - B. Hammann et al., IEEE Journal of Photovoltaics, vol. 13, no. 4, pp. 535-546, July 2023.)
 
-Starting from the effective lifetime measured in a Sinton tester $ \frac{1}{\tau_{eff}}=\frac{1}{\tau_{bulk_int}}+\frac{1}{\tau_{SRH}}+\frac{1}{\tau_{surf}} $.
+Starting from the effective lifetime measured in a Sinton tester 
+
+$\frac{1}{\tau_{eff}}=\frac{1}{\tau_{bulk_int}}+\frac{1}{\tau_{SRH}}+\frac{1}{\tau_{surf}} $.
 
 Effective recombinaiton velocity is: $S_{eff}=\sqrt{D(\frac{1}{\tau_{surf}})}*\tan(W/2\sqrt{(\frac{1}{D\tau_{surf}})})$.  Which is often approximated to $S_{eff}=W/2(\frac{1}{\tau_{surf}})$
 
