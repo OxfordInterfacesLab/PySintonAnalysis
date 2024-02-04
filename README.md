@@ -14,7 +14,7 @@ $\frac{1}{\tau_{eff}}=\frac{1}{\tau_{bulk_int}}+\frac{1}{\tau_{SRH}}+\frac{1}{\t
 
 Effective recombinaiton velocity is: $S_{eff}=\sqrt{D(\frac{1}{\tau_{surf}})}*\tan(W/2\sqrt{(\frac{1}{D\tau_{surf}})})$.  Which is often approximated to $S_{eff}=W/2(\frac{1}{\tau_{surf}})$
 
-Then, J0 can be estimate from the average of the flat region of a plot of: $\frac{\partial}{\partial \Delta n}(n_i^2(S_{eff}))$ which requires the algorithm implemented for getting $J_{0S-avg}$, since we need to calculate an SRH recombination that makes  $J_{0s-avg}=\frac{qn_i^2S_{eff}}{N_{dop}+\Delta n} $ a true equation. Here $J_0$ would be a single value parameter, but it is of course possible to simply calculate S and then obtain a J0 as a function of minority carriers. 
+Then, J0 can be estimate from the average of the flat region of a plot of: $\frac{\partial}{\partial \Delta n}(n_i^2(S_{eff}))$ which requires the algorithm implemented for getting $J_{0S-avg}$, since we need to calculate an SRH recombination that makes  $J_{0s-avg}=\frac{qn_i^2S_{eff}}{N_{dop}+\Delta n}$ a true equation. Here $J_0$ would be a single value parameter, but it is of course possible to simply calculate S and then obtain a J0 as a function of minority carriers. 
 
 Some useful advice for extracting J0:
  
