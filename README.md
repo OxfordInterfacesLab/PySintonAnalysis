@@ -1,6 +1,9 @@
 # PySintonAnalysis
 
 To make sure it is all clear, here are all the main equations that define how these parameters are analysed.
+
+Please read the Equations.docx file to understand the workflow and figure labels.
+
 ### See more on
 - RS Bonilla, et al (2017), Phys. Status Solidi A, 214: 1700293
 - A. Kimmerle, J. Greulich, and A. Wolf, Sol. Energy Mater. Sol. Cells 142, 116–122 (2015).
